@@ -1,0 +1,151 @@
+body {
+    background: rgb(255, 255, 255); 
+    
+}
+
+/* DIV SETUP */
+
+
+
+/* overskrift h1 design */
+
+h1{
+font-style: bold;
+font-size: 100px;
+
+}
+
+
+/* FONTS */
+
+p{
+  font-family: Arial, Helvetica, sans-serif ;
+  color: rgb(40, 40, 40);
+  font-size: 100%;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif ;
+  text-align: center;
+  color: rgb(40, 40, 40);
+  font-size: 100%;
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  color: rgb(40, 40, 40);
+  font-size: 100%;
+}
+h3{
+  font-family: cursive;
+  text-align: center;
+  font-style: oblique;
+  color: rgb(40, 40, 40);
+  font-size: 100%;
+}
+h4{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: medium;
+  color: rgb(40, 40, 40);
+  font-size: 100%;
+}
+a{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin:auto;
+  color:#DBAC2C;
+  font-weight: bold;
+  transition: transform 0.5s;
+  font-size: 200%;
+}
+
+.a1{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin:auto;
+  color:black;
+  font-weight: bold;
+  transition: transform 0.1s;
+  font-size: 10%
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  transition: transform .2s;
+}
+
+.center {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.centerText {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column2 {
+  margin:auto;
+  float:left;
+  width:50%;
+  padding:5px;
+}
+
+.column2_1 {
+  margin:auto;
+  float:right;
+  width:50%;
+  padding:5px;
+}
+
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.column3_1 {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+}
+
+.column4 {
+  float: left;
+  margin:auto;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  transform: scale(1.0);
+}
+
+
+img:hover {
+  -ms-transform: scale(1.2); border-radius: 30px;
+  -webkit-transform: scale(1.2); border-radius: 30px;
+  transform: scale(1.2); 
+}
+a:hover {
+  color: white;  
+  border-radius: 10px;
+  background-color: #DBAC2C;
+}
+
+.a1:hover {
+  color: white;  
+  border-radius: 3px;
+  background-color: black;
+}
